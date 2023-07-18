@@ -68,9 +68,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-6 mt-5">
                         <div className="heading  ">
-                            <h2 className='text-start'>Delish Popcorn</h2>
-                            <h2 className='text-start'> Pop-Up Shop Virtual </h2>
-                            <h2 className='text-start'>Fundraising Platform</h2>
+                            <h1 className='text-start'>Delish Popcorn</h1>
+                            <h1 className='text-start'> Pop-Up Shop Virtual </h1>
+                            <h1 className='text-start'>Fundraising Platform</h1>
                         </div>
                         <div className="features mt-4 feature-edit">
 
@@ -135,7 +135,7 @@ const Home = () => {
 
                     <div className="container">
 
-                        <div className="d-flex flex-wrap flex-md-row pt-3">
+                        <div className="main pt-3">
 
 
                             <div className="p-2 logo-box">
@@ -177,11 +177,7 @@ const Home = () => {
                                 <div className="logo-edit"><img src={img14} alt="" /> </div>
                                 <div><p>Creative</p></div>
                             </div>
-                        </div>
-
-                        <div className="d-flex flex-wrap flex-md-row pt-3">
-
-
+                           
                             <div className="p-2 logo-box">
                                 <div className="logo-edit"><img src={img15} alt="" /> </div>
                                 <div><p>Dance Studios</p></div>
@@ -221,11 +217,7 @@ const Home = () => {
                                 <div className="logo-edit"><img src={img22} alt="" /> </div>
                                 <div><p>Fraternities</p></div>
                             </div>
-                        </div>
-
-                        <div className="d-flex flex-wrap flex-md-row pt-3">
-
-
+                          
                             <div className="p-2 logo-box">
                                 <div className="logo-edit"><img src={img23} alt="" /> </div>
                                 <div><p>Funeral</p></div>
@@ -266,11 +258,7 @@ const Home = () => {
                                 <div className="logo-edit"><img src={img30} alt="" /> </div>
                                 <div><p>Runs</p></div>
                             </div>
-                        </div>
-
-                        <div className="d-flex flex-wrap flex-md-row  pt-3">
-
-
+                        
                             <div className="p-2 logo-box">
                                 <div className="logo-edit"><img src={img31} alt="" /> </div>
                                 <div><p>Sororities</p></div>
@@ -329,15 +317,15 @@ const Home = () => {
                             </div>
                             <div className="col-md-6 mt-5">
                                 <div className='section4-text mt-3'>
-                                    <h4 className='section4-text-h1 text-start '>Hassle-Free Fundraising</h4>
-                                    <h4 className='section4-text-h2 text-start '>Benefits <span className='section4-text-h2-1'>of Delish Popcorn </span></h4>
-                                    <h4 className='section4-text-h3 text-start '>Pop-Up Shop</h4>
+                                    <h4 className='section4-text-h1 text-start mx-4 '>Hassle-Free Fundraising</h4>
+                                    <h4 className='section4-text-h2 text-start mx-4'>Benefits <span className='section4-text-h2-1'>of Delish Popcorn </span></h4>
+                                    <h4 className='section4-text-h3 text-start mx-4'>Pop-Up Shop</h4>
                                 </div>
 
                                 <div className='mt-5'>
-                                    <p className='section4-text2 text-start'>No Platform Fees. No Minimum Requirements. No</p>
-                                    <p className='section4-text2 text-start'> Brochures. No Forms or Paperwork. No Funds to</p>
-                                    <p className='section4-text2 text-start'> Collect. No Products to Deliver.</p>
+                                    <p className='section4-text2 text-start mx-4'>No Platform Fees. No Minimum Requirements. No</p>
+                                    <p className='section4-text2 text-start mx-4'> Brochures. No Forms or Paperwork. No Funds to</p>
+                                    <p className='section4-text2 text-start mx-4'> Collect. No Products to Deliver.</p>
                                 </div>
 
                             </div>
@@ -368,8 +356,8 @@ const Home = () => {
                             </div>
 
                             <div className="col-md-6 mt-5">
-                                <div className="section4-img ">
-                                    <img className='img-fluid section4-img-edit' src={img40} alt="" />
+                                <div className=" section4-img-1 ">
+                                    <img className='img-fluid ' src={img40} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -388,15 +376,15 @@ const Home = () => {
                             </div>
                             <div className="col-md-6 mt-5">
                                 <div className='section4-text mt-3'>
-                                    <h4 className='section4-text-h1-a text-start '><span className='section4-text-h2-1-a'> Quick   </span>Pay Out</h4>
+                                    <h4 className='section4-text-h1-a text-start mx-4'><span className='section4-text-h2-1-a'> Quick   </span>Pay Out</h4>
 
                                 </div>
 
                                 <div className='mt-5'>
-                                    <p className='section4-text2 text-start'>Delish Popcorn payout issues a check or direct </p>
-                                    <p className='section4-text2 text-start'> bank deposit for your profits between five to</p>
-                                    <p className='section4-text2 text-start'>seven days after the conclusion of your virtual</p>
-                                    <p className='section4-text2 text-start'>pop-up shop fundraiser.</p>
+                                    <p className='section4-text2 text-start mx-4'>Delish Popcorn payout issues a check or direct </p>
+                                    <p className='section4-text2 text-start mx-4'> bank deposit for your profits between five to</p>
+                                    <p className='section4-text2 text-start mx-4'>seven days after the conclusion of your virtual</p>
+                                    <p className='section4-text2 text-start mx-4'>pop-up shop fundraiser.</p>
                                 </div>
 
                             </div>
@@ -424,7 +412,7 @@ const Home = () => {
                 <div className="section-6 mt-5">
 
                     <div className="container">
-                        <div className="row">
+                        <div className="row sec-6">
                             <div className="col-md-4">
                                 <div className='top-edit'>
                                     <div class="card edit-card-1" >
@@ -443,8 +431,8 @@ const Home = () => {
                                     <div class="card edit-card-2" >
                                         <div class="card-body">
 
-                                            <h5 class="card-subtitle mb-2 card-heading text-start ">Participation</h5>
-                                            <p class="card-text card-para text-start">Decide the overall goal you would like to achieve during your seven-day Pop-Up. Once established, upload a picture or video of yourself, your team, your organization, someone in need, or yourself.</p>
+                                            <h5 class="mb-3 mt-3 card-subtitle mb-2 card-heading text-start ">Participation</h5>
+                                            <p class="card-text card-para text-start mb-5">Decide the overall goal you would like to achieve during your seven-day Pop-Up. Once established, upload a picture or video of yourself, your team, your organization, someone in need, or yourself.</p>
 
                                         </div>
                                     </div>
@@ -456,13 +444,7 @@ const Home = () => {
                                     <div class="card-body">
 
                                         <h5 class="card-subtitle mb-2 card-heading text-start ">Quick and Easy Set-Up</h5>
-                                        {/* <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" /> Download The App</p>
-                                        <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" />  Provide contact information to send proceeds</p>
-                                        <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" /> Establish the dates of your shop</p>
-                                        <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" /> Receive your personalized fundraiser code and link</p>
-                                        <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" />  Share your link with friends and family</p>
-                                        <p class="card-text card-para-1 text-start "><img className='mx-3' src={img42} alt="" />   Post your Delish Popcorn Pop-Up Shop event on social media; send text, and email messages to family, friends, and neighbors.</p> */}
-                                        <ul>
+                                         <ul>
                                             <li className='text-start card-para-1 remove-dot'> <img  className='mx-3 vector' src={img42} alt="" /> Download The App</li>
                                             <li className='text-start card-para-1 remove-dot'> <img  className='mx-3 vector' src={img42} alt="" /> Provide contact information to send proceeds</li>
                                             <li className='text-start card-para-1 remove-dot'><img  className='mx-3 vector' src={img42} alt="" />Establish the dates of your shop</li>
